@@ -5,13 +5,15 @@
     font-family: "ingra", Arial;
     margin: 20px;
     .days, .hours, .minutes, .seconds, .smalltext{
+      color:#fff;
       display: block;
       font-size: xx-large;
     }
     .smalltext{
+      color:#fff;
       font-size: medium;
       letter-spacing: 1px;
-      font-weight: 300;
+      font-weight: 500;
     }
   }
 }

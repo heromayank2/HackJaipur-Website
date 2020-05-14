@@ -575,7 +575,7 @@ footer {
   #countdown div .smalltext {
     font-size: 25px;
     letter-spacing: 2px;
-    font-weight: 300; }
+    font-weight: 500; }
 
 @media screen and (max-width: 450px) {
   #countdown div {

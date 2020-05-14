@@ -533,7 +533,7 @@ a {
     grid-template-columns: 1fr; } }
 footer {
   height: 80px;
-  background-color: #1f1f1f;
+  background-color: #745737;
   display: flex;
   justify-content: center; }
   footer * {

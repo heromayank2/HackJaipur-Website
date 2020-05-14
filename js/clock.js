@@ -45,6 +45,6 @@ function initializeClock(id, descriptionID, endtime, description) {
 window.addEventListener('DOMContentLoaded', (event) => {
     // Javascript zero-indexes months, but not days.
     // Please don't ask why.
-    var deadline = new Date(Date.parse(new Date(2020, 5, 13, 12, 00, 00)));
-    initializeClock('countdown', 'countdown-description', deadline,"We are almost here!!");
+    var deadline = new Date(Date.parse(new Date(2020, 5, 14, 00, 00, 00)));
+    initializeClock('countdown', 'countdown-description', deadline,"Padhaaring Soon!");
 })

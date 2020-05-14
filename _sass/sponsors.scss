@@ -75,7 +75,7 @@
   }
   button{
     -webkit-appearance: none;
-    padding: 10px 30px;
+    padding: 5px 20px;
     background-color: transparent;
     border: 2px solid rgba(0, 0, 0, 0.87);
     border-radius: 3px;
@@ -87,12 +87,13 @@
     cursor: pointer;
     margin: auto;
     position: relative;
-    left: 50%;
+    left: 9%;
     transform: translateX(-50%);
-    margin-bottom: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
   button:hover{
-    background-color: rgba(0, 0, 0, 0.87);
+    background-color: #B38E59;
     color: white;
   }
 }
@@ -119,6 +120,9 @@
   #sponsors{
     h2{
       font-size: 48px;
+    }
+    button{
+      left: 45%;
     }
   }
 }

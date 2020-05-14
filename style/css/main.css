@@ -149,7 +149,7 @@ a {
   #hero video {
     min-width: 100%;
     min-height: 100%; }
-  #hero .header-content {
+  #hero .header-content{
     position: relative;
     top: 50%;
     transform: translateY(-50%); }
@@ -333,7 +333,7 @@ a {
 #event-countdown {
   height: auto;
   text-align: center;
-  background-image: url("../../images/cream_back.png");
+  background-image: url("../../images/tile.jpg");
   background-repeat: repeat;
   padding: 50px 0px 0px 0px; }
   #event-countdown img {
@@ -444,7 +444,7 @@ a {
     cursor: pointer;
     margin: auto;
     position: relative;
-    left: 50%;
+    left: 150%;
     transform: translateX(-50%);
     margin-bottom: 80px; }
   #sponsors button:hover {
@@ -498,7 +498,7 @@ a {
         height: 200px;
         object-fit: cover; }
       #team .team-grid-container .team-member__text {
-        min-height: 100px;
+        min-height: 130px;
         line-height: inherit;
         text-align: center;
         display: flex;
@@ -518,7 +518,7 @@ a {
   #team #team-slit-bottom {
     width: 100%;
     height: 103px;
-    background-color: #1f1f1f;
+    background-color: #ffffff;
     -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 66%);
     clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 66%); }
 

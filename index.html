@@ -24,13 +24,40 @@
                 font-weight: bold;
             }
             .nav-left img{
-              height: 100px;
+                height: 100px;
             }
             #footer-logo img{
-              height: 50px;
-              margin-top: -2px;
-              margin-left: 20px;
+                height: 50px;
+                margin-top: -2px;
+                margin-left: 20px;
             }
+            #devfolio-apply-now {
+            -ms-flex-align: center;
+            -webkit-box-align: center;
+            align-items: center;
+            background-color: #3770FF;
+            border-radius: 3px;
+            border: none;
+            color: #FFFFFF;
+            cursor: pointer;
+            display: -ms-flexbox;
+            display: -webkit-box;
+            display: flex;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+            font-size: 18px;
+            font-weight: 600;
+            padding: 12px 20px;
+            text-align: center;
+            text-transform: lowercase;
+        }
+
+    #devfolio-apply-now:not([disabled]) {
+        cursor: pointer;
+    }
+
+    #devfolio-apply-now:hover {
+        background-color: #2954BF !important;
+    }
         </style>
 	</head>
 	
@@ -77,12 +104,12 @@
             <div class="header-content">
                 <h1>Are you ready for <br/><span class="header-title"><span>Hack</span><span> Jaipur</span><span> 1.0? </span></span></h1>
                 <h3>14<sup>th</sup> - 20<sup>th</sup> June, Virtually!!</h3>
-                <a href="http://hackjaipur.devfolio.co"><button id="apply-button">Apply @DevFolio</button></a>
+                <button id="devfolio-apply-now"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:8px"><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>Apply with Devfolio</button><br/>
                 <a href="https://forms.gle/4cEM8n8DM8cFAW4f8"><button id="apply-button">Submit Talk</button></a>
 
             </div>
             <div class="social-links-header">
-                <a target="_blank" href="https://discord.gg/hackjaipur"><img id="logo" src="images/discord.svg" /></a>
+                <a target="_blank" href="https://t.me/hackjaipur"><img src="images/telegram.png"/></a>
                 <a target="_blank" href="https://twitter.com/hackjaipur/"><img id="logo" src="images/twitter.svg" /></a>
                 <a target="_blank" href="https://github.com/heromayank2/"><img id="logo" src="images/github.jpg" /></a>
                 <a target="_blank" href="https://instagram.com/hackjaipur/"><img id="logo" src="images/instagram.svg" /></a>
@@ -91,8 +118,8 @@
         </section>
         <section id="event-countdown">
             <div class="container">
-                <img src="./images/confetti.png"/>
-                <h3><span id="countdown-description"></span></h3>
+                <img src="./images/building.png"/>
+                <h3><span id="countdown-description" style="font-family: Verdana, Geneva, Tahoma, sans-serif;"></span></h3>
                 <div id="countdown">
                     <div>
                         <span class="days"></span>
@@ -116,7 +143,7 @@
         </section>
         <section id="event-info">
             <div class="container" id="faq">
-                <h1>FAQ</h1>
+                <h1 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Frequently Asked Questions</h1>
                 <hr/>
                 <div class="faq-post">
                     <h2>What is <span class="span-capital">Hack<span>Jaipur?</span></span></h2>
@@ -146,26 +173,46 @@
                 <h3>Join Us!</h3>
                 <p>Register your team now for HackJaipur at <a href="http://hackjaipur.devfolio.co">Devfolio</a>!</p>
             </div>
-            <div class="google-maps">
-                <div id="faq-slit-bottom"></div>
-                <iframe width="100%" height="500px" frameBorder="0" src="https://a.tiles.mapbox.com/v4/alexmusethemes.18gfnp97.html?access_token=pk.eyJ1IjoiYWxleG11c2V0aGVtZXMiLCJhIjoiY2lrOGtnOWp0MDAxcXZ5bTg2bnR2Mmo1cSJ9._0Ye5dZotjyEMAnd1Qno6Q"></iframe>
-                <div id="sponsor-slit-bottom"></div>
-            </div>
+            <div id="team-slit-bottom"></div>
         </section>
         <section id="sponsors">
             <div class="container">
-                <h2>Our Sponsors</h2>
-                <hr/>
+                <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Sponsors</h2>
+                <a href="https://forms.gle/j69D2QaxBf3aqGnn9"><button>Become A Sponsor!</button></a>
+                <hr style="width:50px"/>
                 <div class="sponsors-list">
+                    <h5>Title</h5>
                     <div class="partner">
-                        {% for sponsor in site.data.sponsors.sponsers %}
+                        {% for sponsor in site.data.sponsors.title %}
                         <div class="sponsor-icons">
                             <a href="{{ sponsor.link }}"><img src="{{ sponsor.logo }}"/></a>
                         </div>
                         {% endfor %}
                     </div>
+                <h5>Gold</h5>
+                <div class="partner">
+                    {% for sponsor in site.data.sponsors.gold %}
+                    <div class="sponsor-icons">
+                        <a href="{{ sponsor.link }}"><img src="{{ sponsor.logo }}"/></a>
+                    </div>
+                    {% endfor %}
                 </div>
-                <a href="https://forms.gle/j69D2QaxBf3aqGnn9"><button>Become A Sponsor!</button></a>
+                <h5>Silver</h5>
+                <div class="partner">
+                    {% for sponsor in site.data.sponsors.silver %}
+                    <div class="sponsor-icons">
+                        <a href="{{ sponsor.link }}"><img src="{{ sponsor.logo }}"/></a>
+                    </div>
+                    {% endfor %}
+                </div>
+                <div class="partner">
+                    {% for sponsor in site.data.sponsors.sponsers %}
+                    <div class="sponsor-icons">
+                        <a href="{{ sponsor.link }}"><img src="{{ sponsor.logo }}"/></a>
+                    </div>
+                    {% endfor %}
+                </div>
+                </div>
             </div>
             <div id="sponsor-slit-top"></div>
         </section>
@@ -174,7 +221,7 @@
                 <div class="team-container__header">
                     <h2>Meet the Speakers</h2>
                     <hr/>
-                    <h3>For an Awesome Hackathon you must have Awesome Speakers.</h3>
+                    <h3>If you are interested in giving a talk too, Submit your talk <a href="https://forms.gle/4cEM8n8DM8cFAW4f8">here.</a></h3>
                 </div>
                 <div class="team-grid-container">
                     {% for person in site.data.speaker %}
@@ -190,6 +237,7 @@
                             <div class="team-member__text__content">
                                 <h3>{{ person.name }}</h3>
                                 <h5>{{ person.role }}</h5>
+                                <h3>{{ person.topic }}</h3>
                             </div>
                         </div>
                     </div>
@@ -211,7 +259,6 @@
                         {% endfor %}
                     </div>
                 </div>
-                <a href="https://forms.gle/j69D2QaxBf3aqGnn9"><button>Become A Sponsor!</button></a>
             </div>
             <div id="sponsor-slit-top"></div>
         </section>
@@ -242,7 +289,7 @@
                     {% endfor %}
                 </div>
             </div>
-            <div id="team-slit-bottom"></div>
+            <div id="team1-slit-bottom"></div>
         </section>
         <footer>
             <div id="footer-logo">
@@ -252,8 +299,8 @@
                 <a target="_blank" href="https://www.linkedin.com/company/HackJaipur/"><img src="images/linkedin.png"/></a>
                 <a target="_blank" href="https://www.github.com/HackJaipur/"><img src="images/github.jpg"/></a>
                 <a target="_blank" href="https://twitter.com/HackJaipur/"><img id="twitter" src="images/twitter.svg"/></a>
-                <a target="_blank" href="https://www.facebook.com/HackJaipur"><img src="images/facebook.svg"/></a>
-                <a target="_blank" href="https://discord.gg/HackJaipur"><img src="images/discord.svg"/></a>
+                <a target="_blank" href="https://instagram.com/hackjaipur/"><img id="logo" src="images/instagram.svg" /></a>
+                <a target="_blank" href="https://t.me/hackjaipur"><img src="images/telegram.png"/></a>
             </div>
         </footer>
 
@@ -275,6 +322,26 @@
         </script>
 
         <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                let devfolioOptions = {
+                    buttonSelector: '#devfolio-apply-now',
+                    key: '',
+                }
+
+                let script = document.createElement('script');
+                script.src = "https://apply.devfolio.co";
+                document.head.append(script);
+
+                script.onload = function () {
+                    new Devfolio(devfolioOptions);
+                }
+
+                script.onerror = function () {
+                    document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
+                        window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+                    });
+                }
+            });
             $('.nav-mobile').on('click', function(){
                $('.nav-mobile-content-container').css({
                    maxHeight: '100%',

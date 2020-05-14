@@ -1,7 +1,20 @@
-sponsers:
+title:
   - name: GitHub
     link: https://www.github.com/
     logo: ./images/sponsors/github.png
+  - name: DevFolio
+    link: https://devfolio.co/
+    logo: ./images/sponsors/Devfolio.png
+
+gold:
+  - name: Fold
+    link: https://fold.money/
+    logo: ./images/sponsors/fold.png
+  - name: Matic
+    link: https://matic.network/
+    logo: ./images/sponsors/matic.svg
+
+silver:
   - name: Auth0
     link: https://auth0.com/
     logo: ./images/sponsors/auth0.png

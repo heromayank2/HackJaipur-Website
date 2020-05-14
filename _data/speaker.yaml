@@ -1,0 +1,66 @@
+- name: Jason Etcovitch
+  role: Engineer at GitHub
+  topic: Probot and automation
+  picture: /images/speaker/jason.jpg
+  twitter: JasonEtco
+- name: Juan Pablo Flores
+  role: Program Manager at GitHub Education
+  topic: Managing Student Program
+  picture: /images/speaker/juan.jpg
+  twitter: juanpflores_
+- name: Prem Kumar
+  role: Implementation Engineer at GitHub
+  topic: GitHub CI/CD
+  picture: /images/speaker/prem.jpg
+  twitter: ppremk
+- name: Vrijraj Singh
+  role: Google Developer Expert for Web
+  topic: What's new in web?
+  picture: /images/speaker/vrijraj.jpg
+  twitter: VrijrajSingh
+- name: Madhav Bahl
+  role: 2x Intern at Microsoft 
+  topic: Build a profile they can't ignore
+  picture: /images/speaker/madhav.jpg
+  twitter: MadhavBahlMD
+- name: Vedant Bahel
+  role: Chair, IEEE CIS SBC
+  topic: From Innovator to a Researcher 
+  picture: /images/speaker/vedant.jpg
+  twitter: Vedant_Bahel
+- name: Aditya Oberoi
+  role: Community Intern at Progate 
+  topic: From Innovator to a Researcher 
+  picture: /images/speaker/aditya.jpg
+  twitter: Vedant_Bahel
+- name: Subham Ray
+  role: Gold Microsoft Student Partner
+  topic: DataScience 
+  picture: /images/speaker/subham.jpg
+  twitter: Vedant_Bahel
+- name: Saumya Singh
+  role: Android Developer and Open Source Contributor, Coding Blocks
+  topic: GitHub and Open Source
+  picture: /images/speaker/saumya.jpg
+  twitter: Saumya1Singh
+- name: Akash Hadagali
+  role: GitHub Campus Expert
+  topic: Getting started with Docker
+  picture: /images/speaker/akash.jpg
+  twitter: akashc777
+- name: Anjali Sharma
+  role: Google TSWE Scholar
+  topic: Web Development Roadmap 
+  picture: /images/speaker/anjali.jpg
+  twitter: AnjaliiSharmaaa
+# - name: Paras Pundir
+#   role: Microsoft
+#   topic: 
+#   picture: /images/speaker/paras.jpg
+#   twitter: iamparaspundir
+- name: Harshil Agrawal
+  role: MLH Coach || GitHub Campus Expert
+  topic: Github Pages 
+  picture: /images/speaker/harshil.jpg
+  twitter: harshil1712
+

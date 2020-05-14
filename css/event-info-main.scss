@@ -1,0 +1,135 @@
+---
+---
+
+$font: 'ingra', Arial;
+
+html, body, article, header, footer{
+  display: block;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+h1, h2, h3, h4, h4, h5, h6, p, a{
+  margin: 0px;
+  font-family: $font;
+}
+/*
+Global styles
+*/
+.container{
+  width: 80%;
+  margin: auto;
+}
+.span-capital {
+  text-transform: capitalize;
+}
+.dot-back{
+  background-image: url("../../images/dot-back.png");
+  background-repeat: repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+button{
+  outline: none;
+}
+a {
+  outline: none;
+  text-decoration: none;
+  color: #2F8AD9;
+}
+*{
+  transition: all 0.3s ease;
+}
+
+.nav-mobile-content-container{
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  max-height: 0px;
+  background-color: rgba(0,0,0,0.9);
+  text-align: center;
+  z-index: 20;
+  opacity: 0;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  h1{
+    text-align: right;
+    padding: 20px;
+    color: white;
+    position: relative;
+    cursor: pointer;
+  }
+  .nav-mobile-content{
+    position: relative;
+    top: 40%;
+    //left: 50%;
+    transform: translateY(-50%);
+    a{
+      display: block;
+      color: white;
+      letter-spacing: 4px;
+      padding: 20px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.button-white{
+  -webkit-appearance: none;
+  border: 2px solid white;
+  background-color: transparent;
+  padding: 7px 30px;
+  border-radius: 3px;
+  color: white;
+  font-family: "ingra", sans-serif;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.button-white:hover{
+  background-color: white;
+  color: black;
+  letter-spacing: 2px;
+}
+
+.button-black{
+  -webkit-appearance: none;
+  border: 2px solid black;
+  background-color: transparent;
+  padding: 7px 30px;
+  border-radius: 3px;
+  color: black;
+  font-family: "ingra", sans-serif;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.button-black:hover{
+  background-color: black;
+  color: white;
+  letter-spacing: 2px;
+}
+
+button{
+  cursor: pointer;
+}
+/*Without Event info 550px width */
+@media screen and (max-width: 720px){
+  .nav-mobile{
+    visibility: visible !important;
+    display: inline-block !important;
+  }
+  .nav-right-content a{
+    display: none !important;
+  }
+}
+
+/* IMPORTS */
+@import "event-info";

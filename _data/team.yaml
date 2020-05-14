@@ -1,0 +1,43 @@
+- name: Mayank Goyal
+  role: Founder / Lead Organiser
+  picture: /images/team/mayank.jpg
+  twitter: MayankGoyal_
+- name: Sumedha Shrivastava
+  role: Founder / Co Organiser
+  picture: /images/team/sumedha.png
+  twitter: 
+- name: Yash Sharma
+  role: Community Lead
+  picture: /images/team/yash.jpg
+  twitter: YashSharma___
+- name: Moulik Agrawal
+  role: Side Event Lead
+  picture: /images/team/moulik.png
+  twitter: aggmoulik
+- name: Saksham Taneja
+  role: Sponsorship Lead
+  picture: /images/team/saksham.jpg
+  twitter: sakshamtaneja00
+- name: Ayush Chauhan
+  role: Tech Lead
+  picture: /images/team/ayush.png
+  twitter: heyayushh
+- name: Sagar Vakkala
+  role: Panelist
+  picture: /images/team/sagar.jpg
+  twitter: SagarVakkala
+- name: Shivam
+  role: Graphic Designer
+  picture: /images/team/shivam.jpg
+# - name: dshvbh
+#   role: Problem Setter
+#   picture: /images/team/JustinChadwell.jpg
+#   twitter: jedevc
+# - name: Likkan Chung
+#   role: Tech Team
+#   picture: /images/team/LikkanChung.jpg
+#   twitter: LikkanChung
+# - name: Fraser Wade
+#   role: Tech Team
+#   picture: /images/team/FraserWade.jpg
+#   twitter: LikkanChung

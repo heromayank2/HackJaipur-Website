@@ -1,0 +1,91 @@
+---
+---
+
+$font: 'ingra', Arial;
+
+html, body, article, header, footer{
+  display: block;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+h1, h2, h3, h4, h4, h5, h6, p, a, ul, li{
+  margin: 0px;
+  font-family: $font;
+}
+/*
+Global styles
+*/
+.container{
+  width: 80%;
+  margin: auto;
+}
+.span-capital {
+  text-transform: capitalize;
+}
+.dot-back{
+  background-image: url("../../images/dot-back.png");
+  background-repeat: repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+button{
+  outline: none;
+}
+a{
+  outline: none;
+  text-decoration: none;
+}
+*{
+  transition: all 0.3s ease;
+}
+
+.nav-mobile-content-container{
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  max-height: 0px;
+  background-color: rgba(0,0,0,0.9);
+  text-align: center;
+  z-index: 20;
+  opacity: 0;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  h1{
+    text-align: right;
+    padding: 20px;
+    color: white;
+    position: relative;
+    cursor: pointer;
+  }
+  .nav-mobile-content{
+    position: relative;
+    top: 40%;
+    //left: 50%;
+    transform: translateY(-50%);
+    a{
+      display: block;
+      color: white;
+      letter-spacing: 4px;
+      padding: 20px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+/* IMPORTS */
+@import 'header';
+@import 'info';
+@import 'about';
+@import 'sponsors';
+@import 'team';
+@import 'master';
+@import "footer";
+@import "countdown";

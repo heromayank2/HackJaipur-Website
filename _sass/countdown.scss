@@ -1,0 +1,31 @@
+#countdown{
+  div{
+    text-align: center;
+    display: inline-block;
+    font-family: "ingra", Arial;
+    margin: 20px;
+    .days, .hours, .minutes, .seconds, .smalltext{
+      display: block;
+      font-size: xx-large;
+    }
+    .smalltext{
+      font-size: medium;
+      letter-spacing: 1px;
+      font-weight: 300;
+    }
+  }
+}
+
+@media screen and (max-width: 600px){
+  #countdown{
+    div{
+      margin: 5px;
+    }
+    .days, .hours, .minutes, .seconds{
+      font-size: 20px !important;
+    }
+    .smalltext {
+      font-size: 15px !important;
+    }
+  }
+}

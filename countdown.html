@@ -1,0 +1,55 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="css/countdown.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>
+    </head>
+
+    <body>
+        <div class="overlay"></div>
+        <div class="dot-back"></div>
+        <section id="main-body">
+            <div class="countdown-container">
+                <img src="images/htmlogo.png">
+                <h2>You have:</h2>
+                <div id="countdown"></div>
+                <h2>left</h2>
+                <h3>#hackjaipur</h3>
+            </div>
+        </section>
+    </body>
+
+    <script type="text/javascript">
+        function getTimeRemaining(endtime){
+            var t = Date.parse(endtime) - Date.parse(new Date());
+            var seconds = Math.floor( (t/1000) % 60 );
+            var minutes = Math.floor( (t/1000/60) % 60 );
+            var hours = Math.floor( (t/(1000*60*60)) % 24 );
+            var days = Math.floor( t/(1000*60*60*24) );
+            return {
+                'total': t,
+                'days': days,
+                'hours': hours,
+                'minutes': minutes,
+                'seconds': seconds
+            };
+        }
+
+        function initializeClock(id, endtime){
+            var clock = document.getElementById(id);
+            var timeinterval = setInterval(function(){
+                var t = getTimeRemaining(endtime);
+                clock.innerHTML = '<div id="days">' + t.days + '<h3>Days</h3></div>' + '<div id="hours">' + t.hours + '<h3>Hours</h3></div>' + '<div id="minutes">' + t.minutes + '<h3>Minutes</h3></div>' + '<div id="minutes">' + t.seconds + '<h3>Seconds</h3></div>';
+                if(t.total<=0){
+                    clearInterval(timeinterval);
+                }
+            },1000);
+        }
+
+        var deadline = 'October 26 2019 12:00:00 GMT+0100';
+        initializeClock('countdown', deadline);
+
+    </script>
+
+</html>

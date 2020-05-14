@@ -1,0 +1,24 @@
+sponsers:
+  - name: GitHub
+    link: https://www.github.com/
+    logo: ./images/sponsors/github.png
+  - name: Auth0
+    link: https://auth0.com/
+    logo: ./images/sponsors/auth0.png
+
+partners:
+  - name: Discord
+    link: https://discord.com
+    logo: ./images/sponsors/discord.png
+  - name: GiveMyCertificate
+    link: https://givemycertificate.com
+    logo: ./images/sponsors/givemycertificate.png
+  - name: GDG Jalandar
+    link: https://gdgjalandhar.com/
+    logo: ./images/sponsors/gdgj.png
+  - name: JetBrains
+    link: https://www.jetbrains.com/
+    logo: ./images/sponsors/jetbrains.png
+  - name: Zubi.io
+    link: https://zubi.io/
+    logo: ./images/sponsors/zubi.png

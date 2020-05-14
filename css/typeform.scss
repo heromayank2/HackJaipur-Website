@@ -1,0 +1,19 @@
+html{
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+iframe{
+  position: absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  top:0;
+  border:0;
+}
+iframe #background{
+  background-image: url('http://oi64.tinypic.com/an0mz4.jpg') !important;
+}
+#fixed-footer>.background{
+  background-color: rgba(0,0,0,0.6);
+}

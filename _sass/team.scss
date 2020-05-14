@@ -37,7 +37,8 @@
       margin: 10px;
       display: flex;
       flex-direction: column;
-      height: 400px;
+      box-shadow: 2px 5px 5px 5px #68471E;
+      height: 420px;
       &__picture_container {
         width: 100%;
         height: 75%;
@@ -48,7 +49,7 @@
         object-fit: cover;
       }
       &__text{
-        min-height: 100px;
+        min-height: 130px;
         line-height: inherit;
         text-align: center;
         display: flex;
@@ -65,9 +66,9 @@
         }
         h5{
           margin: 0px;
-          font-weight: 300;
+          font-weight: 150;
           font-size: medium;
-          width: 90%;
+          width: 60%;
           margin: auto;
         }
       }

@@ -490,7 +490,7 @@ a {
     #team .team-grid-container .team-member {
       text-align: center;
       background-color: white;
-      margin: 20px;
+      margin: 30px;
       display: flex;
       flex-direction: column; }
       #team .team-grid-container .team-member__picture {
@@ -498,7 +498,7 @@ a {
         height: 200px;
         object-fit: cover; }
       #team .team-grid-container .team-member__text {
-        min-height: 130px;
+        min-height: 150px;
         line-height: inherit;
         text-align: center;
         display: flex;
@@ -511,7 +511,7 @@ a {
           font-weight: 500; }
         #team .team-grid-container .team-member__text h5 {
           margin: 0px;
-          font-weight: 300;
+          font-weight: 200;
           font-size: 18px;
           width: 90%;
           margin: auto; }

@@ -22,10 +22,10 @@
   role: Sponsorship Lead
   picture: /images/team/saksham.jpg
   twitter: sakshamtaneja00
-- name: Ayush Chauhan
-  role: Tech Lead
-  picture: /images/team/ayush.png
-  twitter: heyayushh
+- name: Shubhangi Gupta
+  role: Team /AV
+  picture: /images/team/shubhangi.jpg
+  twitter: Shubhangi_0304
 - name: Sagar Vakkala
   role: Panelist
   picture: /images/team/sagar.jpg
@@ -33,6 +33,10 @@
 - name: Shivam
   role: Graphic Designer
   picture: /images/team/shivam.jpg
+- name: Ayush Chauhan
+  role: Team
+  picture: /images/team/ayush.png
+  twitter: heyayushh
 # - name: dshvbh
 #   role: Problem Setter
 #   picture: /images/team/JustinChadwell.jpg

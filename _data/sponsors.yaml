@@ -20,9 +20,6 @@ silver:
     logo: ./images/sponsors/auth0.png
 
 partners:
-  - name: Discord
-    link: https://discord.com
-    logo: ./images/sponsors/discord.png
   - name: GiveMyCertificate
     link: https://givemycertificate.com
     logo: ./images/sponsors/givemycertificate.png

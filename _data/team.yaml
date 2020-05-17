@@ -1,13 +1,13 @@
 - name: Mayank Goyal
-  role: Lead Organizer
+  role: Lead Organizer | Website Developer
   picture: /images/team/Mayank.jpg
   twitter: MayankGoyal_
 - name: Sumedha Shrivastava
-  role: Co Organizer
+  role: Co Organizer | Marketing Team
   picture: /images/team/sumedha.png
   twitter: 
 - name: Rishabh Bansal
-  role: Co Organizer
+  role: Co Organizer | Community Team
   picture: /images/team/rishabh.jpg
   twitter: rishabhbansal97
 - name: Yash Sharma
@@ -19,7 +19,7 @@
   picture: /images/team/moulik.png
   twitter: aggmoulik
 - name: Shubhangi Gupta
-  role: Team /AV
+  role: Team | AV 
   picture: /images/team/shubhangi.jpg
   twitter: Shubhangi_0304
 - name: Shivam

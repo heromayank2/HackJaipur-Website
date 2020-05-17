@@ -1,35 +1,27 @@
 - name: Mayank Goyal
-  role: Founder/Lead Organiser
+  role: Lead Organizer
   picture: /images/team/Mayank.jpg
   twitter: MayankGoyal_
 - name: Sumedha Shrivastava
-  role: Founder/Co Organiser
+  role: Co Organizer
   picture: /images/team/sumedha.png
   twitter: 
 - name: Rishabh Bansal
-  role: Community Lead/Co Organiser
+  role: Co Organizer
   picture: /images/team/rishabh.jpg
   twitter: rishabhbansal97
 - name: Yash Sharma
-  role: Community Lead
+  role: Community Team
   picture: /images/team/yash.jpg
   twitter: YashSharma___
 - name: Moulik Agrawal
-  role: Side Event Lead
+  role: Side Event Team
   picture: /images/team/moulik.png
   twitter: aggmoulik
-- name: Saksham Taneja
-  role: Sponsorship Lead
-  picture: /images/team/saksham.jpg
-  twitter: sakshamtaneja00
 - name: Shubhangi Gupta
   role: Team /AV
   picture: /images/team/shubhangi.jpg
   twitter: Shubhangi_0304
-- name: Sagar Vakkala
-  role: Panelist
-  picture: /images/team/sagar.jpg
-  twitter: SagarVakkala
 - name: Shivam
   role: Graphic Designer
   picture: /images/team/shivam.jpg
@@ -37,6 +29,14 @@
   role: Team
   picture: /images/team/ayush.png
   twitter: heyayushh
+- name: Sagar Vakkala
+  role: Panelist
+  picture: /images/team/sagar.jpg
+  twitter: SagarVakkala
+- name: Saksham Taneja
+  role: Sponsorship Team
+  picture: /images/team/saksham.jpg
+  twitter: sakshamtaneja00
 # - name: dshvbh
 #   role: Problem Setter
 #   picture: /images/team/JustinChadwell.jpg

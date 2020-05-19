@@ -18,11 +18,11 @@ silver:
   - name: Auth0
     link: https://auth0.com/
     logo: ./images/sponsors/auth0.png
-
-partners:
   - name: Creative Tim
     link: https://www.creative-tim.com/
     logo: ./images/sponsors/ctim.jpg
+
+partners:
   - name: GiveMyCertificate
     link: https://givemycertificate.com
     logo: ./images/sponsors/givemycertificate.png

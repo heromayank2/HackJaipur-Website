@@ -32,3 +32,6 @@ partners:
   - name: Zubi.io
     link: https://zubi.io/
     logo: ./images/sponsors/zubi.png
+  - name: GDG Jaipur
+    link: https://www.meetup.com/GDG-Jaipur/
+    logo: ./images/sponsors/gdgj.jpeg

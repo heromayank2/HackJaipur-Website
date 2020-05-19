@@ -23,12 +23,14 @@ partners:
   - name: GiveMyCertificate
     link: https://givemycertificate.com
     logo: ./images/sponsors/givemycertificate.png
-  - name: GDG Jalandar
-    link: https://gdgjalandhar.com/
-    logo: ./images/sponsors/gdgj.png
   - name: JetBrains
     link: https://www.jetbrains.com/
     logo: ./images/sponsors/jetbrains.png
+    
+community:
+  - name: GDG Jalandar
+    link: https://gdgjalandhar.com/
+    logo: ./images/sponsors/gdgj.png
   - name: Zubi.io
     link: https://zubi.io/
     logo: ./images/sponsors/zubi.png

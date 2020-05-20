@@ -3,16 +3,6 @@
   topic: Probot and automation
   picture: /images/speaker/jason.jpg
   twitter: JasonEtco
-- name: Juan Pablo Flores
-  role: Program Manager at GitHub Education
-  topic: Managing Student Program
-  picture: /images/speaker/juan.jpg
-  twitter: juanpflores_
-- name: Prem Kumar
-  role: Implementation Engineer at GitHub
-  topic: GitHub DevOps
-  picture: /images/speaker/prem.jpg
-  twitter: ppremk
 - name: Vrijraj Singh
   role: Google Developer Expert for Web
   topic: What's new in web?
@@ -23,6 +13,16 @@
   topic: Build a profile they can't ignore
   picture: /images/speaker/madhav.jpg
   twitter: MadhavBahlMD
+- name: Prem Kumar
+  role: Implementation Engineer at GitHub
+  topic: GitHub DevOps
+  picture: /images/speaker/prem.jpg
+  twitter: ppremk
+- name: Juan Pablo Flores
+  role: Program Manager at GitHub Education
+  topic: Managing Student Program
+  picture: /images/speaker/juan.jpg
+  twitter: juanpflores_
 - name: Vedant Bahel
   role: Chair, IEEE CIS SBC
   topic: From Innovator to a Researcher 
@@ -38,6 +38,11 @@
   topic: DataScience 
   picture: /images/speaker/subham.jpg
   twitter: Vedant_Bahel
+- name: Chirag Nayyar
+  role: Technical Sales Manager at Cloud Kinetics 
+  topic: Build your Career in Cloud Computing
+  picture: /images/speaker/chirag.jpg
+  twitter: chiragnayyar
 - name: Saumya Singh
   role: Developer Advocate at AnitaB.org
   topic: GitHub and Open Source

@@ -13,6 +13,9 @@ gold:
   - name: Matic
     link: https://matic.network/
     logo: ./images/sponsors/matic.svg
+  - name: Coding Blocks
+    link: https://codingblocks.com/
+    logo: ./images/sponsors/cb.png
 
 silver:
   - name: Auth0

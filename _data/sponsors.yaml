@@ -9,13 +9,13 @@ title:
 gold:
   - name: Fold
     link: https://fold.money/
-    logo: ./images/sponsors/fold.png
+    logo: ./images/sponsors/fold.png   
   - name: Matic
     link: https://matic.network/
     logo: ./images/sponsors/matic.svg
-  - name: Coding Blocks
-    link: https://codingblocks.com/
-    logo: ./images/sponsors/cb.png
+  - name: echoAR
+    link: https://www.echoar.xyz/
+    logo: ./images/sponsors/echo.png 
 
 silver:
   - name: Auth0
@@ -24,6 +24,9 @@ silver:
   - name: Creative Tim
     link: https://www.creative-tim.com/
     logo: ./images/sponsors/ctim.jpg
+  - name: Coding Blocks
+    link: https://codingblocks.com/
+    logo: ./images/sponsors/cb.png
 
 partners:
   - name: GiveMyCertificate

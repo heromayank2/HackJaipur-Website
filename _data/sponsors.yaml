@@ -24,6 +24,9 @@ silver:
   - name: Creative Tim
     link: https://www.creative-tim.com/
     logo: ./images/sponsors/ctim.jpg
+  - name: DEV
+    link: https://dev.to/
+    logo: ./images/sponsors/dev.png
   - name: Coding Blocks
     link: https://codingblocks.com/
     logo: ./images/sponsors/cb.png

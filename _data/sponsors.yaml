@@ -49,3 +49,6 @@ community:
   - name: GDG Jaipur
     link: https://www.meetup.com/GDG-Jaipur/
     logo: ./images/sponsors/gdgj.jpeg
+  - name: Firebase Group
+    link: https://www.linkedin.com/company/firebasegroup/
+    logo: ./images/sponsors/firebase.png

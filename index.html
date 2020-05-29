@@ -75,6 +75,21 @@
         background-color: #2954BF !important;
         color:#fff;
     }
+    @media screen and (min-width: 992px){
+    #mlh-trust-badge{
+        left: 100px;
+        top: 0;
+        }
+    }
+
+
+    @media screen and (max-width: 992px){
+    #mlh-trust-badge{
+
+        right: 30px;
+        top: 0;
+        }
+    }
         </style>
 	</head>
 	
@@ -117,6 +132,7 @@
                                 <!-- <a href="event-info.html">Event Information</a> -->
                             </div>
                             <div class="nav-mobile"></div>
+                            <a id="mlh-badge" class="badge" href="https://mlh.io/seasons/eu-2020/events"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2020/mlh-trust-badge-2020-white.svg" alt="Major League Hacking 2019 Hackathon Season"></a>
                            </div>
                     </div>
                 </div>
@@ -193,7 +209,7 @@
                 </div> -->
                 <div class="faq-post">
                     <h2>Code of Conduct</h2>
-                    <p>We will be following the Hack Code of Conduct, which can be found <a href="https://devfolio.co/code-of-conduct">here</a>.</p>
+                    <p>We will be following the Hack Code of Conduct, which can be found <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf?fbclid=IwAR2vbP-bruJ_ZyL9D0bamJ-15OxadEtm0tv4l1EYBBkNnJ5-6XoUe0Zd2ZE">here</a>.</p>
                 </div>
                 <div class="faq-post">
                     <h2>Why is HackJaipur for you or why should you participate in it?</h2>
@@ -215,6 +231,14 @@
                 <a href="https://hackjaipur.typeform.com/to/p9unMf"><button>Become A Sponsor!</button></a>
                 <hr style="width:50px"/>
                 <div class="sponsors-list">
+                    <h3>Event Partner</h3>
+                    <div class="partner">
+                        {% for sponsor in site.data.sponsors.event %}
+                        <div class="sponsor-icons">
+                            <a href="{{ sponsor.link }}"><img src="{{ sponsor.logo }}"/></a>
+                        </div>
+                        {% endfor %}
+                    </div>
                     <h3>Title</h3>
                     <div class="partner">
                         {% for sponsor in site.data.sponsors.title %}
@@ -341,7 +365,7 @@
         </section>
         <footer>
             <div id="footer-logo">
-               <h5 style="color:#fff"><a target="_blank" href="https://devfolio.co/code-of-conduct" style="color:#fff">Moral Code of Conduct &nbsp;&nbsp; *&nbsp;&nbsp;&nbsp; </a> Contact us: <a href="mailto:support@hackjaipur.com" style="color:#fff">support@hackjaipur.com</a></h5>
+               <h5 style="color:#fff"><a target="_blank" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf?fbclid=IwAR2vbP-bruJ_ZyL9D0bamJ-15OxadEtm0tv4l1EYBBkNnJ5-6XoUe0Zd2ZE" style="color:#fff">Moral Code of Conduct &nbsp;&nbsp; *&nbsp;&nbsp;&nbsp; </a> Contact us: <a href="mailto:support@hackjaipur.com" style="color:#fff">support@hackjaipur.com</a></h5>
             </div>
             <div class="social-links" id="footer-social">
                 <a target="_blank" href="https://www.linkedin.com/company/HackJaipur/"><img src="images/linkedin.png"/></a>

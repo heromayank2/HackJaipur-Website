@@ -1,3 +1,7 @@
+event:
+  - name: MLH
+    link: https://hackp.ac/apac
+    logo: ./images/sponsors/MLH.svg
 title:
   - name: GitHub
     link: https://www.github.com/

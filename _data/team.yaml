@@ -1,27 +1,31 @@
 - name: Mayank Goyal
-  role: Lead Organizer | Website Developer
+  role: Lead Organizer
   picture: /images/team/Mayank.jpg
   twitter: MayankGoyal_
-- name: Sumedha Shrivastava
-  role: Co Organizer | Marketing Team
-  picture: /images/team/sumedha.png
-  twitter: 
 - name: Rishabh Bansal
-  role: Co Organizer | Community Team
+  role: Co Organizer
   picture: /images/team/rishabh.jpg
   twitter: rishabhbansal97
+- name: Sumedha Shrivastava
+  role: Technical Team
+  picture: /images/team/sumedha.png
+  twitter: 
+- name: Shubhangi Gupta
+  role: Technical Team
+  picture: /images/team/shubhangi.jpg
+  twitter: Shubhangi_0304
 - name: Yash Sharma
   role: Community Team
   picture: /images/team/yash.jpg
   twitter: YashSharma___
+- name: Saksham Taneja
+  role: Community Team
+  picture: /images/team/saksham.jpg
+  twitter: sakshamtaneja00
 - name: Moulik Agrawal
-  role: Side Event Team
+  role: Partnership Lead
   picture: /images/team/moulik.png
   twitter: aggmoulik
-- name: Shubhangi Gupta
-  role: Team | AV 
-  picture: /images/team/shubhangi.jpg
-  twitter: Shubhangi_0304
 - name: Shivam
   role: Graphic Designer
   picture: /images/team/shivam.jpg
@@ -29,10 +33,6 @@
   role: Panelist
   picture: /images/team/sagar.jpg
   twitter: SagarVakkala
-- name: Saksham Taneja
-  role: Sponsorship Team
-  picture: /images/team/saksham.jpg
-  twitter: sakshamtaneja00
 - name: Sparsh Gupta
   role: Team
   picture: /images/team/sparsh.jpeg

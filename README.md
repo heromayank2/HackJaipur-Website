@@ -1,3 +1,4 @@
+![](https://github.com/heromayank2/HackJaipur-Website/blob/master/images/cover.jpeg)
 ### About HackJaipur
 
 HackJaipur is a community-focused virtual Hackathon, designed especially for the needs of the communities, with problem statements centered around the community itself. Whether you are a beginner or an expert, here is the perfect chance to hone and show your skills and witness the competitive yet inclusive developer community around you!  

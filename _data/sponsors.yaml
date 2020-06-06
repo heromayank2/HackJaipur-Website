@@ -35,6 +35,10 @@ silver:
   - name: Coding Blocks
     link: https://codingblocks.com/
     logo: ./images/sponsors/cb.png
+  - name: QuickNode
+    link: https://www.quiknode.io/
+    logo: ./images/sponsors/qn.png
+
 
 partners:
   - name: GiveMyCertificate

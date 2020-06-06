@@ -36,10 +36,10 @@
 - name: Sparsh Gupta
   role: Team
   picture: /images/team/sparsh.jpeg
-- name: Ayush Chauhan
-  role: Team
-  picture: /images/team/ayush.png
-  twitter: heyayushh
+# - name: Ayush Chauhan
+#   role: Team
+#   picture: /images/team/ayush.png
+#   twitter: heyayushh
 # - name: Likkan Chung
 #   role: Tech Team
 #   picture: /images/team/LikkanChung.jpg

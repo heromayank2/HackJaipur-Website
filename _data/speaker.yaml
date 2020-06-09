@@ -96,7 +96,7 @@
 - name: Sahil Sen
   role: Developer Evangelist at QuikNode
   topic: Demystifying Blockchain with QuikNode
-  picture: /images/speaker/sahil.jpg
+  picture: /images/speaker/sahil.JPG
 - name: Ben Dechrai
   role: Developer Advocate at Auth0
   topic: Auth0 powering NodeJS
@@ -105,4 +105,3 @@
   role: SDE Intern@ Flipkart/ MLH Coach(APAC)
   topic: Auth0 powering NodeJS
   picture: /images/speaker/sak.jpg
-  picture: /images/speaker/sahil.JPG

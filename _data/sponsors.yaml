@@ -40,6 +40,7 @@ silver:
     logo: ./images/sponsors/qn.png
 
 
+
 partners:
   - name: GiveMyCertificate
     link: https://givemycertificate.com
@@ -61,3 +62,6 @@ community:
   - name: Firebase Group
     link: https://www.linkedin.com/company/firebasegroup/
     logo: ./images/sponsors/firebase.png
+  - name: Script
+    link: https://scriptindia.org/
+    logo: ./images/sponsors/script.png

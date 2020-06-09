@@ -97,3 +97,11 @@
   role: Developer Evangelist at QuikNode
   topic: Demystifying Blockchain with QuikNode
   picture: /images/speaker/sahil.jpg
+- name: Ben Dechrai
+  role: Developer Advocate at Auth0
+  topic: Auth0 powering NodeJS
+  picture: /images/speaker/ben.jpg
+- name: Sashrika Kaur
+  role: SDE Intern@ Flipkart/ MLH Coach(APAC)
+  topic: Auth0 powering NodeJS
+  picture: /images/speaker/sak.jpg

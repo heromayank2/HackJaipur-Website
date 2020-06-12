@@ -58,11 +58,11 @@
   topic: Web Development Roadmap 
   picture: /images/speaker/anjali.png
   twitter: AnjaliiSharmaaa
-- name: Harshil Agrawal
-  role: MLH Coach || GitHub Campus Expert
-  topic: Github Pages 
-  picture: /images/speaker/harshil.jpg
-  twitter: harshil1712
+# - name: Harshil Agrawal
+#   role: MLH Coach || GitHub Campus Expert
+#   topic: Github Pages 
+#   picture: /images/speaker/harshil.jpg
+#   twitter: harshil1712
 - name: Saptarshi Prakash
   role: Product Design Manager at Swiggy
   topic: 
@@ -101,7 +101,7 @@
   role: Developer Advocate at Auth0
   topic: Auth0 powering NodeJS
   picture: /images/speaker/ben.jpg
-- name: Sashrika Kaur
-  role: SDE Intern@ Flipkart/ MLH Coach(APAC)
-  topic: Auth0 powering NodeJS
-  picture: /images/speaker/sak.jpg
+# - name: Sashrika Kaur
+#   role: SDE Intern@ Flipkart/ MLH Coach(APAC)
+#   topic: Auth0 powering NodeJS
+#   picture: /images/speaker/sak.jpg

@@ -10,6 +10,9 @@ title:
   - name: DevFolio
     link: https://devfolio.co/
     logo: ./images/sponsors/Devfolio.png
+  - name: Elastic
+    link: https://elastic.co/
+    logo: ./images/sponsors/elastic.svg
 
 gold:
   - name: Fold
